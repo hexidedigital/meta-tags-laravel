@@ -15,7 +15,7 @@ class MetaTagsServiceProvider extends ServiceProvider
     public function boot()
     {
         \Blade::directive('meta_tags_render', function (...$args){
-            return \HexideDigital\MetaTagsLaravel\Facades\Meta::render();
+            return \Meta::render();
         });
     }
 
