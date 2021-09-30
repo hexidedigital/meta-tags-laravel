@@ -1,0 +1,37 @@
+{
+    "name": "hexide-digital/meta-tags-laravel",
+    "description": "setup and render meta tags in blade templates",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Oleksandr-Moik",
+            "email": "sashamoik2016@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HexideDigital\\FileUploader\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HexideDigital\\MetaTagsLaravel\\MetaTagsServiceProvider"
+            ],
+            "aliases": {
+                "Meta": "HexideDigital\\MetaTagsLaravel\\Facades\\Meta"
+            }
+        }
+    }
+}
