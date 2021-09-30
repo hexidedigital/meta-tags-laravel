@@ -21,8 +21,3 @@ We will be happy to work with you! Other [work we’ve done](https://hexide-digi
 Stay up to date with the latest Vuestic news!
 Follow us on [LinkedIn](https://www.linkedin.com/company/hexide-digital) 
 or [Facebook](https://www.facebook.com/hexide.digital)
-
-
-# License
-
-
