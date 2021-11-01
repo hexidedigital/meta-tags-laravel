@@ -37,7 +37,7 @@ class Meta
     /**
      * @var array
      */
-    private array $data = [
+    private $data = [
         "title"         => [],
         "site_name"     => "",
         "description"   => "",
